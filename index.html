@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>
+            Web Galaxy
+        </title>
+    </head>
+    <body>
+        <script src="js/jquery.js"></script>
+        <script src="config.js"></script>
+        <script>
+            function loadGame(url, callback){
+                var head = document.getElementsByTagName('head')[0];
+                var script = document.createElement('script');
+                script.type = 'text/javascript';
+                script.src = url;
+
+                script.onreadystatechange = callback;
+                script.onload = callback;
+
+                head.appendChild(script);
+            }
+            
+            loadGame('app.js', function (cb) {
+                // debugger
+            });
+            // $.getScript(config.url+'app.js');
+        </script>
+    </body>
+</html>

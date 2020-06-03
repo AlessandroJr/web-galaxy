@@ -1,0 +1,38 @@
+{
+  "name": "web-galaxy",
+  "version": "0.0.0",
+  "description": "Web Galaxy: criação do projeto inicial",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlessandroJr/web-galaxy.git"
+  },
+  "keywords": [
+    "gamificação",
+    "jogo",
+    "aprender",
+    "html",
+    "css",
+    "js",
+    "javascript",
+    "java",
+    "script",
+    "aula",
+    "divertido",
+    "jogar",
+    "universo",
+    "galaxy",
+    "web",
+    "galaxia",
+    "planetas"
+  ],
+  "author": "Alessandro Nunes Dos Santos Junior - andsjr98@hotmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlessandroJr/web-galaxy/issues"
+  },
+  "homepage": "https://github.com/AlessandroJr/web-galaxy#readme"
+}
