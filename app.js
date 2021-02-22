@@ -11,3 +11,5 @@ function loadScript(url, callback){
 }
 
 loadScript('config.js', function (cb) {});
+
+// var firstScreen = new tela 

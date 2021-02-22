@@ -1,5 +1,8 @@
-$('body').html('funfoooooo global');
+// arquivo intermediario de config
 
-loadScript('js/teste.js', function (cb) {
-    debugger
-});
+
+
+// loadScript('js/teste.js', function (cb) {
+//     debugger
+// });
+
